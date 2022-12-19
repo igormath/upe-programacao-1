@@ -1,0 +1,7 @@
+# Ignore all files
+*
+
+# Except gitignore and .c files from folder and subfolders.
+!.gitignore
+!*.c
+!/aula3
