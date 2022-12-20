@@ -25,6 +25,9 @@ int main() {
                 totalPrice += (productQuantity * 6.87);
                 break;
             default:
+                if (!(productCode == 0 && productQuantity == 0)) {
+                    printf("Produto não encontrado! \n");
+                }
                 break;
         }
     } while ((productCode != 0) && (productQuantity != 0));
